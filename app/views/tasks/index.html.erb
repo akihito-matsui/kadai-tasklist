@@ -1,3 +1,8 @@
+<% if logged_in? %>
+  <p><%= current_user.name %>さん、Tasklistにようこそ！</p>
+<% else %>
+<% end %>
+
 <h1>タスク一覧</h1>
 
 <ul>
